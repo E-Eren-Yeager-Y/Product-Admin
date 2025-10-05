@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    
+    <nav class="container">
+        <div class="first">
+            <img src="./imgs/Vector (3).png" alt="">
+            <h2>Catalog - Products</h2>
+        </div>
+        <div class="second">
+            <img src="./imgs/notifications.png" alt="">
+            <div>
+                <h3>XM</h3>
+            </div>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="main-header ">
+
+            <div class="search">
+                <div class="search-bar">
+                    <img src="./imgs/search.png" alt="">
+                    <input type="text">
+                </div>
+                <div class="add-btn">
+                    <img src="./imgs/Rectangle 59.png" alt="">
+                    <img src="./imgs/Rectangle 58.png" alt="">
+                    <img src="./imgs/filter.png" alt="">
+                </div>
+                <div class="search-cards">
+                    
+                </div>
+            </div>
+            <button id="openModalBtn" class="btn open-modal-btn">
+                <h2>New</h2> <img src="./imgs/Rectangle 18.png" alt="">
+            </button>
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="closeModalBtn">&times;</span>
+                    <form class="form-grid">
+                        <div class="form-group">
+                            <label for="fullName">Full name product</label>
+                            <input type="text" id="fullName" placeholder="Enter full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="phoneNumber">Product price</label>
+                            <div class="phone-input-wrapper">
+                                <input type="text" id="phoneNumber" placeholder="Price">
+                            </div>
+                        </div>
+                        <div class="form-group">
+
+                            <label for="#">Color</label>
+                            <input type="text" placeholder="Name color">
+
+                        </div>
+                        <div class="form-group file-upload-group">
+                            <label class="upload-label">
+                                <span class="upload-icon">🔗</span>
+                                <span class="upload-text">Upload img</span>
+                                <input type="file" id="cvUpload" hidden>
+                            </label>
+                            <button type="button" class="plus-btn">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" aria-label="icon"
+                                    class="inline-flex duration-300 hover:rotate-180">
+                                    <path d="M13.6569 8.00012H2.34315" stroke="white" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M8 2.34326V13.657" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="form-group">
+
+                            <label for="#">Size</label>
+                            <input type="text" placeholder="Size">
+
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <h3>Join Card </h3>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container-2">
+
+            <div class="card">
+                <div class="card-header">
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider"></span>
+                    </label>
+                    <span class="archived">Is archived</span>
+                    <button class="dots">⋮</button>
+                </div>
+                <div class="card-img">
+                    <img src="./imgs/img.png" alt="LD T-SHIRT">
+                </div>
+                <h3>LD T-SHIRT <span class="price">$85.00</span></h3>
+                <div class="at-88">
+                    <div>
+
+                        <p>Size:<br> L Large</p>
+                        <p>Color:</br> ⚫ Black</p>
+                    </div>
+                    <p class="stock">23 <span>In Stock</span></p>
+                </div>
+            </div>
+            
+            
+            <div class="card">
+                <div class="card-header">
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider"></span>
+                    </label>
+                    <span class="archived">Is archived</span>
+                    <button class="dots">⋮</button>
+                </div>
+                <div class="card-img">
+                    <img src="./imgs/img (1).png" alt="LD T-SHIRT">
+                </div>
+                <h3>LD T-SHIRT <span class="price">$55.00</span></h3>
+                <div class="at-88">
+                    <div>
+
+                        <p>Size:<br> L <span>Large</span></p>
+                        <p>Color:</br> ⚫ Black</p>
+                    </div>
+                    <p class="stock">15 <span>In Stock</span></p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider"></span>
+                    </label>
+                    <span class="archived">Is archived</span>
+                    <button class="dots">⋮</button>
+                </div>
+                <div class="card-img">
+                    <img src="./imgs/img (2).png" alt="LD T-SHIRT">
+                </div>
+                <h3>LD T-SHIRT <span class="price">$85.00</span></h3>
+                <div class="at-88">
+                    <div>
+
+                        <p>Size:<br> L Large</p>
+                        <p>Color:</br> ⚫ Black</p>
+                    </div>
+                    <p class="stock">13 <span>In Stock</span></p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider"></span>
+                    </label>
+                    <span class="archived">Is archived</span>
+                    <button class="dots">⋮</button>
+                </div>
+                <div class="card-img">
+                    <img src="./imgs/img (3).png" alt="LD T-SHIRT">
+                </div>
+                <h3>LD T-SHIRT <span class="price">$85.00</span></h3>
+                <div class="at-88">
+                    <div>
+
+                        <p>Size:<br> L Large</p>
+                        <p>Color:</br> ⚫ Black</p>
+                    </div>
+                    <p class="stock">4 <span>In Stock</span></p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider"></span>
+                    </label>
+                    <span class="archived">Is archived</span>
+                    <button class="dots">⋮</button>
+                </div>
+                <div class="card-img">
+                    <img src="./imgs/img (4).png" alt="LD T-SHIRT">
+                </div>
+                <h3>LD T-SHIRT <span class="price">$99.00</span></h3>
+                <div class="at-88">
+                    <div>
+
+                        <p>Size:<br> L Large</p>
+                        <p>Color:</br> ⚫ Black</p>
+                    </div>
+                    <p class="stock">0 <span>In Stock</span></p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider"></span>
+                    </label>
+                    <span class="archived">Is archived</span>
+                    <button class="dots">⋮</button>
+                </div>
+                <div class="card-img">
+                    <img src="./imgs/img (5).png" alt="LD T-SHIRT">
+                </div>
+                <h3>LD T-SHIRT <span class="price">$85.00</span></h3>
+                <div class="at-88">
+                    <div>
+
+                        <p>Size:<br> L Large</p>
+                        <p>Color:</br> ⚫ Black</p>
+                    </div>
+                    <p class="stock">0 <span>In Stock</span></p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider"></span>
+                    </label>
+                    <span class="archived">Is archived</span>
+                    <button class="dots">⋮</button>
+                </div>
+                <div class="card-img">
+                    <img src="./imgs/img (6).png" alt="LD T-SHIRT">
+                </div>
+                <h3>LD T-SHIRT <span class="price">$40.00</span></h3>
+                <div class="at-88">
+                    <div>
+
+                        <p>Size:<br> L Large</p>
+                        <p>Color:</br> ⚫ Black</p>
+                    </div>
+                    <p class="stock">2 <span>In Stock</span></p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider"></span>
+                    </label>
+                    <span class="archived">Is archived</span>
+                    <button class="dots">⋮</button>
+                </div>
+                <div class="card-img">
+                    <img src="./imgs/img (7).png" alt="LD T-SHIRT">
+                </div>
+                <h3>LD T-SHIRT <span class="price">$10.00</span></h3>
+                <div class="at-88">
+                    <div>
+
+                        <p>Size:<br> L Large</p>
+                        <p>Color:</br> ⚫ Black</p>
+                    </div>
+                    <p class="stock">75 <span>In Stock</span></p>
+                </div>
+            </div>
+      
+           
+        </div>
+        <button class="btn-mas">Mostrar mas</button>
+        <p style="opacity: 0;">Behruz</p>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
