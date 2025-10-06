@@ -33,7 +33,7 @@ const searchCardsContainer = document.querySelector('.search-cards');
 
 searchInput.addEventListener('input', function () {
   const query = this.value.toLowerCase().trim();
-  searchCardsContainer.innerHTML = ''; // avvalgi natijalarni tozalaymiz
+  searchCardsContainer.innerHTML = ''; 
 
   if (query === '') {
     searchCardsContainer.style.display = 'none';
